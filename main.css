@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    overflow-x: hidden;
+}
+header,
+footer {
+    background-color: #1E284D;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 1.5px;
+}
+header > .container,
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+header * {
+    padding: 0 8px;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+nav ul li :hover {
+    text-decoration: underline;
+}
+nav {
+    background-color: #5F5FC4;
+    padding: 8px;
+    display: none;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+.menu-hamburger {
+    width: 32px;
+    cursor: pointer;
+}
+.menu-hamburger span {
+    height: 2px;
+    width: 100%;
+    color:black;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+.flex-container {
+    display: flex
+}
+#sobre-EBAC-Motors img {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 24px;
+}
+.catalogo li h3 {
+    margin: 16px 0;
+}
+.catalogo li {
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+.catalogo li img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+.catalogo {
+    flex-wrap: wrap;
+}
+.catalogo li button,
+.enviar {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #1E284D;
+    color: white;
+    font-size: 16px;
+    font-weight: 420;
+    border-radius: 9px;
+}
+.enviar {
+    max-width: 130px;
+}
+.catalogo li button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.valores {
+    display: block;
+    margin: 8px 0;
+}
+.valores .original {
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+}
+.inputer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 36%;
+    padding-bottom: 6px;
+}
+.formulario {
+    padding-top: 16px;
+}
+.formulario textarea {
+    width: 251px;
+    height: 137px;
+    resize: none;
+}
+footer {
+    margin-top: 10px;
+}
+.contato-loja {
+    display: inline; 
+    padding-left: 10px;
+}
+.contato-loja a {
+    cursor: pointer;
+}
+.contato-loja a img {
+    max-width: 40px
+}
+.central {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 99%;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.input {
+    display: flex;
+    flex-wrap: wrap;
+}
